@@ -1,3 +1,13 @@
+/* 
+Assignment 2: UiTM Perlis Harumanis Mangoes  
+Name: NUR AQILA BINTI AZHAR  
+Matric No: 2023367775  
+Group: RCDCS 251 4A  
+Public URL: https://github.com/yayan4ever/harumanis-mango 
+            https://yayan4ever.github.io/harumanis-mango/  
+*/
+
+
 document.addEventListener("DOMContentLoaded", () => {
     // Smooth scroll for navigation links
     document.querySelectorAll("nav ul li a").forEach(link => {
