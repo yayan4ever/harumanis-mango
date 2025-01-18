@@ -1,3 +1,12 @@
+/* 
+Assignment 2: UiTM Perlis Harumanis Mangoes  
+Name: NUR AQILA BINTI AZHAR  
+Matric No: 2023367775  
+Group: RCDCS 251 4A  
+Public URL: https://github.com/yayan4ever/harumanis-mango 
+            https://yayan4ever.github.io/harumanis-mango/  
+*/
+
 /* Global Styles */
 body {
   font-family: 'Poppins', sans-serif;
@@ -67,8 +76,66 @@ section h2 {
   text-align: center;
 }
 
+/* About Section */
+section#about {
+  background-color: #fff5e6;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center; /* Center-align text within the section */
+}
+
 section#about p {
+  margin: 15px 0;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.about-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the highlight cards */
+  gap: 20px; /* Add spacing between cards */
+  margin-top: 20px;
+}
+
+.highlight {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  flex: 1 1 calc(30% - 10px); /* Adjust width for 3 items per row */
+  max-width: 300px; /* Limit the maximum width for visual balance */
   text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.highlight h3 {
+  color: #fc575e;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.highlight p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.highlight:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-highlights {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: center; /* Center items within the column */
+  }
+  .highlight {
+      flex: 1 1 100%; /* Take full width on smaller screens */
+  }
 }
 
 /* Card Grid */
@@ -90,7 +157,7 @@ section#about p {
 
 .card img {
   width: 100%;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
   margin-bottom: 10px;
