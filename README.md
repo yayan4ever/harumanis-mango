@@ -1,5 +1,4 @@
-# harumanis-mango
-Harumanis Mango
+# Harumanis Mango
 Welcome to the Harumanis Mango repository! This project is dedicated to showcasing the unique characteristics and cultural significance of the Harumanis mango, a prized fruit from Perlis, Malaysia.
 
 About Harumanis Mango
