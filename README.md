@@ -35,19 +35,20 @@ This repository contains:
 1. Clone this repository:
    ```bash
    git clone https://github.com/yayan4ever/harumanis-mango.git
-2. Open the index.html file in your favorite web browser.
+2. Open the **`index.html`** file in your favorite web browser.
 3. Enjoy the beautifully crafted website about the Harumanis mango!
 
 ## 🤝 Contributions
 Contributions are welcome! Whether it's improving the code, adding new features, or enhancing the design, feel free to:
 
-Fork this repository.
-Make your changes.
-Submit a pull request!
+1. Fork this repository.
+2. Make your changes.
+3. Submit a pull request!
+   
 Let’s work together to make this project shine. 🌟
 
-📜 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 📜 License
+This project is licensed under the MIT License. See the **`LICENSE`** file for details.
 
-❤️ Acknowledgments
+## ❤️ Acknowledgments
 Special thanks to the farmers of Perlis, whose dedication and expertise make the Harumanis mango a true Malaysian gem. Your hard work brings sweetness to the world!
